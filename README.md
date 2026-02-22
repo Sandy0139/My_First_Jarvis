@@ -42,11 +42,11 @@ OpenAI Python SDK
 
 📂 Project Structure
 jarvis-voice-assistant/
-│
-├── main.py
-├── musicLibrary.py
-├── requirements.txt
-└── README.md
+│                
+├── main.py                
+├── musicLibrary.py        
+├── requirements.txt        
+└── README.md        
 ⚙️ Installation
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/jarvis-voice-assistant.git
