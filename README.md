@@ -77,47 +77,47 @@ Restart terminal after setting environment variables.
 ▶️ Running the Assistant
 python main.py
 
-You should hear:
-
+You should hear:    
+    
 Initializing Jarvis...
 
 Say:
-
+        
 Jarvis
 
 Then give your command.
 
-🧠 Example Commands
-Command	Action
-Open YouTube	Opens YouTube
+🧠 Example Commands        
+Command	Action            
+Open YouTube	Opens YouTube    
 Open Google	Opens Google
-Play believer	Plays song from music library
+Play believer	Plays song from music library        
 Give me news	Reads latest headlines
-What is AI?	AI-generated short explanation
+What is AI?	AI-generated short explanation    
 🎵 Example musicLibrary.py
 music = {
-    "believer": "https://youtu.be/7wtfhZwyrcc",
+    "believer": "https://youtu.be/7wtfhZwyrcc",    
     "faded": "https://youtu.be/60ItHLz5WEA"
 }
 🔐 Security Best Practices
-
+    
 Never hardcode API keys.
 
 Always use .env or system environment variables.
 
 Add .env to .gitignore.
-
+    
 Example .gitignore:
 
 venv/
-__pycache__/
+__pycache__/        
 .env
 temp.mp3
 ⚠️ Known Limitations
 
 Requires internet for:
 
-Google speech recognition
+Google speech recognition    
 
 News API
 
@@ -127,13 +127,13 @@ Wake-word detection is basic (not ML-based)
 
 Short microphone timeout (can be adjusted)
 
-🚀 Future Improvements
+🚀 Future Improvements        
 
 GUI using Tkinter or PyQt
 
 Spotify API integration
 
-System control commands
+System control commands        
 
 Better wake-word detection
 
@@ -151,12 +151,12 @@ openai
 pyaudio
 📜 License
 
-MIT License
+MIT License    
 
 🙌 Contributing
 
 Pull requests are welcome. For major changes, open an issue first to discuss improvements.
-
+    
 ⭐ Show Your Support
 
 If you like this project, give it a ⭐ on GitHub!
