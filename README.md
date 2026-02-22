@@ -48,22 +48,22 @@ jarvis-voice-assistant/
 ├── requirements.txt        
 └── README.md        
 ⚙️ Installation
-1️⃣ Clone the Repository
+1️⃣ Clone the Repository    
 git clone https://github.com/yourusername/jarvis-voice-assistant.git
-cd jarvis-voice-assistant
+cd jarvis-voice-assistant    
 2️⃣ Create Virtual Environment (Recommended)
 python -m venv venv
 venv\Scripts\activate     # Windows
-source venv/bin/activate  # Mac/Linux
+source venv/bin/activate  # Mac/Linux    
 3️⃣ Install Dependencies
-pip install -r requirements.txt
+pip install -r requirements.txt    
 
 Or manually:
 
 pip install speechrecognition pyttsx3 gtts pygame requests openai pyaudio
 🔑 Environment Variables
-
-Set your API keys securely.
+    
+Set your API keys securely.    
 
 Windows (PowerShell)
 setx OPENAI_API_KEY "your_openai_key"
